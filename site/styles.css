@@ -1,0 +1,182 @@
+body{
+    background-color: rgb(224, 222, 222);
+    margin: 0;
+}
+
+#main{
+    margin: 0 auto;
+    max-width: 85%;
+   
+}
+
+nav{
+    margin: 0;
+    margin-top: 80px;
+    width: 100vw;
+    height: 90px;
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+    position: fixed;
+    
+}
+
+header #banner{
+    background-image: url(img/reciclagem8.jpg);
+    background-repeat: no-repeat;
+    height: 1080px;
+    width: auto;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -80px;
+}
+
+ul{
+    /* padding-top: 15px; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin:0;
+}   
+
+li{
+    list-style: none;
+    font-size: 35px;
+    font-family: 'Anton', sans-serif;
+    /* color: rgb(33, 100, 4); */
+    color: #3c0080;
+    text-align: center;
+    margin: 0 40px;
+    margin-top: 15px;
+
+}
+
+/* li:hover{
+    color: white;
+} */
+
+.divNav{
+    height: 90px;
+}
+
+.divNav:hover{
+    background-color: rgba(200, 255, 0, 0.945);
+    transition: 0.5s;
+}
+
+h1{
+    font-size: 70px;
+    font-family: 'Wendy One', sans-serif;
+    margin: 0;
+}
+
+h2{
+    font-family: 'Roboto';
+}
+
+#titulo{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    width: 550px;
+    height: 350px;
+    letter-spacing: 3px;
+}
+
+.content{
+    height: 1000px;
+    background-color: white
+}
+
+h3{
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+    background-color: rgba(200, 255, 0, 0.945);
+    /* border-bottom: #000000 solid 5px; */
+    margin: 50px auto;
+    margin-top: 89px;
+    width: auto;
+}
+
+.areaIdeias{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: #000000 solid 5px;
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.areaSobreNos{
+    border-bottom: #000000 solid 5px;
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.areaSaibaMais{
+    border-bottom: #000000 solid 5px;
+    margin: 0 auto;
+    width: 1500px;
+}
+
+.areaParceiros{
+    display: block;
+    border-bottom: #000000 solid 5px;
+    margin: 0 auto;
+    width: 1500px;
+}
+
+#master{
+    margin-left: 300px;
+}
+
+.card{
+    text-align: center;
+    /* background-color: #defabb; */
+    height: 750px;
+    width: 700px;
+}
+
+#consciente{
+    padding-top: 25px;
+}
+
+p{
+    padding: 0 50px;
+    font-family: 'Roboto';
+    font-size: 25px;
+    text-align: center;
+}
+
+#logo-site{
+    position: fixed;
+    margin-top: 4px;
+    margin-left: 38px;
+    width: 66px;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    color: #3c0080;
+}
+
+footer{
+    height: 300px;
+    background-color: rgb(119, 73, 17);
+}
+
+#copyright{
+    height: 100px;
+    background-color: rgb(73, 43, 5);
+    overflow: hidden;
+}
+
+#copyright p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
