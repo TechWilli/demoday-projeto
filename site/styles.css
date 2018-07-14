@@ -9,6 +9,17 @@ body{
    
 }
 
+#icons{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#logoImg2{
+    height: 200px;
+    width: 400px;
+}
+
 nav{
     margin: 0;
     margin-top: 80px;
@@ -17,11 +28,10 @@ nav{
     background-color:rgb(255, 255, 255);
     overflow: hidden;
     position: fixed;
-    
 }
 
 header #banner{
-    background-image: url(img/reciclagem8.jpg);
+    background-image: linear-gradient( rgba(12,188,128,0.75), rgba(25, 22, 84, 0.7) ), url(img/reciclagem8.jpg);
     background-repeat: no-repeat;
     height: 1080px;
     width: auto;
@@ -61,7 +71,7 @@ li{
 }
 
 .divNav:hover{
-    background-color: rgba(200, 255, 0, 0.945);
+    background-color: rgba(12,188,128,1); 
     transition: 0.5s;
 }
 
@@ -85,18 +95,31 @@ h2{
 
 .content{
     height: 1250px;
-    background-color: white
+    background-color: white;
+}
+
+#contentIdeias{
+    height: 855px;
+    background-color: white; 
+}
+
+#contentSaibaMais{
+    height: 1950px;
+    background-color: white; 
 }
 
 h3{
+    color: white;
     text-align: center;
-    font-family: 'Anton', sans-serif;
+    font-family: 'roboto', sans-serif;
     font-size: 50px;
-    background-color: rgba(200, 255, 0, 0.945);
+    background-color: rgba(12,188,128,1);
     /* border-bottom: #000000 solid 5px; */
     margin: 50px auto;
     margin-top: 89px;
     width: auto;
+    height: 90px;
+    padding-top: 15px;
 }
 
 .areaIdeias{
@@ -131,7 +154,13 @@ h3{
     /* background-color: #defabb; */
     height: 750px;
     width: 700px;
+}
 
+#cardsGreen{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-bottom: 100px;
 }
 
 #consciente{
@@ -147,7 +176,7 @@ p{
 
 #logo-site{
     position: fixed;
-    margin-top: 4px;
+    margin-top: 10px;
     margin-left: 38px;
     width: 66px;
 }
@@ -157,10 +186,11 @@ a{
 }
 
 a:visited{
-    color: #3c0080;
+    color: black;
 }
 
 footer{
+    margin-top: 89px;
     height: 300px;
     background-color: rgb(119, 73, 17);
 }
@@ -179,12 +209,58 @@ footer{
 }
 
 .textoNos{
+   margin: 0 auto;
+   text-align: center;
    font-weight: bolder;
    font-size: 35px;
+   background-color: rgba(12,188,128,1);
+   width: 150px;
+   border-radius: 20px;
 }
 
 #imgWeTech{
     display: flex;
     justify-content: center;
     margin-top: -120px;
+}
+
+#emBreve{
+    margin-top: 300px;
+    font-size: 35px;
+}
+
+#socialIcons{
+    background-color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#socialIcons img{
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+#socialIcons img:hover{
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+}
+
+#forestFooter{
+    margin-top: 17px;
+    text-align: center;
+}
+
+#forestFooter img{
+    height: 185px;
+    width: 185px;
+}
+#mapaVerde{
+    text-align: center;
+}
+
+#mapaVerde p{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 35px;
 }
